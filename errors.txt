@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 247: 'color' is not a keyword argument or valid child of the textbutton statement.
+    textbutton "Назад" action Return() xalign 0.5 yalign 0.99 color "#FFFFFF" selected_color "#FFFF00"
+                                                                   ^
+
+Ren'Py Version: Ren'Py 8.2.4.24080301+nightly
+Sat Aug 17 18:43:50 2024

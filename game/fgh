@@ -1,0 +1,2 @@
+sign = 100 + "500"
+print(sign)
