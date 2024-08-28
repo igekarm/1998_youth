@@ -2,9 +2,14 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 247: 'color' is not a keyword argument or valid child of the textbutton statement.
-    textbutton "Назад" action Return() xalign 0.5 yalign 0.99 color "#FFFFFF" selected_color "#FFFF00"
-                                                                   ^
+File "game/script.rpy", line 249: expected statement.
+    menu_position = {
+                  ^
+     "Иконка 1": (0, 0),
+     "Иконка 2": (0, 1),
+     "Иконка 3": (1, 0),
+     "Иконка 4": (1, 1)
+     }
 
 Ren'Py Version: Ren'Py 8.2.4.24080301+nightly
-Sat Aug 17 18:43:50 2024
+Wed Aug 28 21:05:47 2024

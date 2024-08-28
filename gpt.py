@@ -1,4 +1,4 @@
-﻿# Инициализация переменных и настроек
+# Инициализация переменных и настроек
 init python:
     # Переменные для времени суток и часов
     time_of_day = "Утро"
@@ -104,27 +104,10 @@ screen hud:
 
         textbutton "Навыки" action ShowMenu("skills_menu")
 
-    hbox:
-        xalign 1.0
-        yalign 0.07
-        spacing 0
-
-        imagebutton idle icon_map action ShowMenu("map")
-
-    hbox:
-        xalign 1.0
-        yalign 0.13
-        spacing 0
-
-
-        imagebutton idle icon_inventory action ShowMenu("inventory")
-
-    hbox:
-        xalign 1.0
-        yalign 0.19
-        spacing 0
-
-        imagebutton idle icon_phone action ShowMenu("phone")
+        hbox:
+            imagebutton idle icon_map action ShowMenu("map")
+            imagebutton idle icon_inventory action ShowMenu("inventory")
+            imagebutton idle icon_phone action ShowMenu("phone")
 
 style indicator_text:
     size 12
@@ -243,9 +226,9 @@ init python:
                 update_thirst(2)
             renpy.restart_interaction()
 
-
 # Пример игрового экрана
 label start:
+
     # Фоновое изображение для экрана
     scene conteiner
 
@@ -297,7 +280,7 @@ label start:
     "Дальше игра закончится, и прежде чем этой сделать, понажимай кнопки указанные выше, пожалуйста."
 
     show screen hud
-    "А ты точно все кнопки потыкал)))."
+    "А ты точно все кнопки потыкал?)))."
 
     show screen hud
     "Уверен?."

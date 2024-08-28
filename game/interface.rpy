@@ -82,16 +82,20 @@ screen hud:
     imagebutton idle icon_forward_2h action Function(set_time, 2) xalign 0.0 yalign 0.2
 
     # Правый верхний угол - навыки, карта, инвентарь, телефон
-    frame:
-        align (1.0, 0.0)
-        has vbox
+#     frame:
+#         align (1.0, 0.0)
+#         has vbox
+#
+#         textbutton "Навыки" action ShowMenu("skills_menu")
 
-        textbutton "Навыки" action ShowMenu("skills_menu")
+    hbox:
+        xalign 1.0
+        yalign 0.07
+        spacing 0
 
-        hbox:
-            imagebutton idle icon_map action ShowMenu("map")
-            imagebutton idle icon_inventory action ShowMenu("inventory")
-            imagebutton idle icon_phone action ShowMenu("phone")
+        imagebutton idle icon_map action ShowMenu("map")
+        imagebutton idle icon_inventory action ShowMenu("inventory")
+        imagebutton idle icon_phone action ShowMenu("phone")
 
 style indicator_text:
     size 12
