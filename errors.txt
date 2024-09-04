@@ -2,14 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 249: expected statement.
-    menu_position = {
-                  ^
-     "Иконка 1": (0, 0),
-     "Иконка 2": (0, 1),
-     "Иконка 3": (1, 0),
-     "Иконка 4": (1, 1)
-     }
+File "game/locations.rpy", line 20: expected a keyword argument, colon, or end of line.
+    imagebutton "Назад" action Return() xalign 0.9 yalign 0.9
+                ^
 
 Ren'Py Version: Ren'Py 8.2.4.24080301+nightly
-Wed Aug 28 21:05:47 2024
+Sat Aug 31 18:19:39 2024

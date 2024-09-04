@@ -25,4 +25,4 @@ screen skills_menu:
                 text skill.capitalize() + ": "
                 text str(value)
 
-        textbutton "Закрыть" action Hide("skills_menu")
+        textbutton "Назад" action Return() xalign 0.5 yalign 1.0

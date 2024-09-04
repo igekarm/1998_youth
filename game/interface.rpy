@@ -206,3 +206,6 @@ init python:
             else:
                 update_thirst(2)
             renpy.restart_interaction()
+
+
+
